@@ -1,0 +1,6 @@
+<h2>the blog posts</h2>
+{{#each model as |blogPost|}}
+    {{blog-post-summary item=blogPost}}
+    -----------------------------------
+{{/each}}
+{{outlet}}

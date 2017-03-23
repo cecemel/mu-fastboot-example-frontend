@@ -1,0 +1,5 @@
+<h3> {{item.title}}</h3>
+by {{item.author}}.
+<p> {{item.content}} </p>
+<p>comments: {{commentsCount}}</p>
+<p> comment authors: {{#each uniqueCommentAuthors as |author|}} {{author}} {{/each}} </p>
